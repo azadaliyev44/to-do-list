@@ -1,0 +1,1 @@
+print(' Hər kəsə salam \n 33 yaşım var ')
