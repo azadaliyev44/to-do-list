@@ -7,9 +7,9 @@ class TaskList:
             index, task.title, task.due_date, task.priority, task.category) for index, task in enumerate(self.tasks)])
         return "<-----------------Task List----------------->\n{}".format(task_list_str)
 
-
     def add_task(self, task): #Function to add new task to Task List
         self.tasks.append(task)
+        self.tasks = sorted(self.tasks,key=lambda x: x.priority) # Reorder list based on priority level after each input 
 
     def edit_task(self, index, new_title, new_due_date = None, new_priority = 0, new_category = None): #Function to eedit the task in the list
         if 0 <= index < len(self.tasks): # We don't want to get crash because of wrong index
@@ -19,6 +19,7 @@ class TaskList:
             task.due_date = new_due_date
             task.priority = new_priority
             task.category = new_category
+            self.tasks = sorted(self.tasks,key=lambda x: x.priority) # Reorder list based on priority level after each modification 
             print(f'Task at index {index} edited: {new_title}')
         else:
             print(f'Invalid index. Edit failed.')
@@ -31,15 +32,20 @@ class TaskList:
         else:
             print('Invalid index.')
 
-    def filter_tasks(self, category): # To print the tasks with specifig category
+    def filter_tasks(self , category): # To print the tasks with specifig category
         filtered_tasks = []
         for task in self.tasks:
             if task.category == category:
-                filtered_tasks.append(task)
-        return filtered_tasks
-
-
-
-        # filtered_tasks = [task for task in self.tasks if task.category == category]
-        # return filtered_tasks
+                filtered_tasks.append(task) #Create list that contains filtered tasks based on category
+        filtered_task_list_str = "\n".join(["[{}] {} (Due: {}, Priority: {}, Category: {})".format(
+            index, task.title, task.due_date, task.priority, task.category) for index, task in enumerate(filtered_tasks)])
+        return "<-------------Filtered Task List------------>\n{}".format(filtered_task_list_str) #Print filtered elements in readable form not their memory adress
+    
+    def task_completed (self, index):
+        if 0 <= index < len(self.tasks):
+            completed_task = self.tasks.pop(index)
+            self.archive.append(completed_task)
+            print(f'Task at index {index} moved to archive: {completed_task.title}')
+        else:
+            print('Invalid index.')
     
