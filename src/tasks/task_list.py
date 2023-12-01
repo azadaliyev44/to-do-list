@@ -1,6 +1,7 @@
 class TaskList:
     def __init__(self):
         self.tasks = []
+        self.archive = []
 
     def __str__(self): # We need to be able to print list as string 
         task_list_str = "\n".join(["[{}] {} (Due: {}, Priority: {}, Category: {})".format(
@@ -48,4 +49,10 @@ class TaskList:
             print(f'Task at index {index} moved to archive: {completed_task.title}')
         else:
             print('Invalid index.')
+
+    def archive_show(self):
+        archive_str = "\n".join(["[{}] {} (Due: {}, Priority: {}, Category: {})".format(
+            index, task.title, task.due_date, task.priority, task.category) for index, task in enumerate(self.archive)])
+        return "<-------------Archive------------>\n{}".format(archive_str) #Print filtered elements in readable form not their memory adress
+
     
