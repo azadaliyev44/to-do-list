@@ -1,8 +1,11 @@
 ## 1.Git
 #### Github activity for this project
 
+https://github.com/azadaliyev44/to-do-list/activity
 
 
+
+## 0.Project description
 Azad Aliyev - To-Do List
 
 This To-Do List program will have functions to add, edit and delete tasks. Priority level can be applied for each task, 
