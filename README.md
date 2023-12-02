@@ -6,6 +6,9 @@ https://github.com/azadaliyev44/to-do-list/activity
 ## 2.UML
 Link to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 
+[Activity Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/activity%20diagram.png)
+[Class Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/Class%20diagram.png)
+[Use Case Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/use%20case%20diagram.png)
 
 
 ## 0.Project description
