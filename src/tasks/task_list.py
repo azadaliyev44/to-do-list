@@ -12,6 +12,12 @@ class TaskList:
         self.tasks.append(task)
         self.tasks = sorted(self.tasks,key=lambda x: x.priority) # Reorder list based on priority level after each input 
 
+    def add_subtask(self,index, subtask):
+        if 0 <= index < len(self.tasks) and len(self.tasks != 0):
+            pass
+            
+
+
     def edit_task(self, index, new_title, new_due_date = None, new_priority = 0, new_category = None): #Function to eedit the task in the list
         if 0 <= index < len(self.tasks): # We don't want to get crash because of wrong index
             # Updating task elements with new values

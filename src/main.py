@@ -1,5 +1,6 @@
 from tasks.task import Task
 from tasks.task_list import TaskList
+from tasks.subtask import Subtask
 import datetime
 
 archive = TaskList().archive

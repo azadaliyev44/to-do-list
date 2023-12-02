@@ -1,7 +1,10 @@
 ## 1.Git
-#### Github activity for this project
+Github activity for this project
 
 https://github.com/azadaliyev44/to-do-list/activity
+
+## 2.UML
+Link to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 
 
 
