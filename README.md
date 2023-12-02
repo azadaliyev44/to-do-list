@@ -1,14 +1,25 @@
 ## 1.Git
 Github activity for this project
 
-https://github.com/azadaliyev44/to-do-list/activity
+[Activity](https://github.com/azadaliyev44/to-do-list/activity)
 
 ## 2.UML
-Link to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
+Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 
 [Activity Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/activity%20diagram.png)
 [Class Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/Class%20diagram.png)
 [Use Case Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/use%20case%20diagram.png)
+
+## 10.IDE
+I used Viual Studio for project development.
+
+Ctrl+/      - Comment selected or current line
+Alt + Up    - Move up line  
+Alt + Down  - Move down line
+F5          - Debug
+Shift + F5  - Stop debug
+these are most used shortcuts for me.
+
 
 
 ## 0.Project description
