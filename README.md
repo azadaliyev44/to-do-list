@@ -20,8 +20,8 @@ during this project
 -Alt+Down  : Move down line    
 -F5          : Debug   
 -Shift+F5  : Stop debug  
--Alt+Left Click :to add cursor multiple places in code (Especially very usefull when you need to correct a TYPO)
--Hold down Scoll button and move : Similar to Alt+Left Click, select a part of multiple lines and adds cursor to each line
+-Alt+Left Click :to add cursor multiple places in code (Especially very usefull when you need to correct a TYPO)  
+-Hold down Scoll button and move : Similar to Alt+Left Click, select a part of multiple lines and adds cursor to each line  
 -Shift+Arrow buttons : Select a part of line or whole multiple lines  
 -Ctrl+Arrow buttons : Jump over the whole word 
 -Ctrl+Backspace : Delete the whole word  
