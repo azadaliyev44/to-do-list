@@ -11,14 +11,24 @@ Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 [Use Case Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/use%20case%20diagram.png)  
  
 ## 10.IDE
-I used Viual Studio for project development.
+I use generally Viual Studio for project development. Some extensions are very usefull which are very useful during   
+development such as "Regex Previewer", "Live Server", "VS Code Counter" however not all of these were used   
+during this project
 
-Ctrl+/      - Comment selected or current line    
-Alt + Up    - Move up line      
-Alt + Down  - Move down line    
-F5          - Debug   
-Shift + F5  - Stop debug  
+-Ctrl+/      : Comment selected or current line    
+-Alt+Up    : Move up line      
+-Alt+Down  : Move down line    
+-F5          : Debug   
+-Shift+F5  : Stop debug  
+-Alt+Left Click :to add cursor multiple places in code (Especially very usefull when you need to correct a TYPO)
+-Hold down Scoll button and move : Similar to Alt+Left Click, select a part of multiple lines and adds cursor to each line
+-Shift+Arrow buttons : Select a part of line or whole multiple lines  
+-Ctrl+Arrow buttons : Jump over the whole word 
+-Ctrl+Backspace : Delete the whole word  
 these are most used shortcuts for me.  
+And of course   
+-Ctrl+C   
+-Ctrl+V to copy and paste
 
 
 
