@@ -3,7 +3,7 @@ from tasks.task_list import TaskList
 from tasks.subtask import Subtask
 import datetime
 
-archive = TaskList().archive
+# I use here to try out the functions yet
 task_list = TaskList()
 
 
