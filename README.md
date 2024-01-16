@@ -9,6 +9,43 @@ Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 [Activity Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/activity%20diagram.png)  
 [Class Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/Class%20diagram.png)  
 [Use Case Diagram](https://github.com/azadaliyev44/to-do-list/blob/main/media/use%20case%20diagram.png)  
+
+## 3.Description of project with the methods of Requirements Engineering
+**Project Overview**
+
+**Product Name**: To-Do List App
+
+**Product Description**: A To-Do list app is a software application that allows users to organize and manage their tasks. Users can create, edit, and delete tasks, set due dates, prioritize tasks, and track their progress.
+
+**Target Audience**: Students, professionals, anyone who needs to keep track of tasks
+
+**Functional Requirements**
+
+**Create tasks**: Users should be able to create new tasks with descriptions, due dates, and priorities.
+
+**Edit tasks**: Users should be able to edit existing tasks, including their descriptions, due dates, and priorities.
+
+**Delete tasks**: Users should be able to delete tasks that are no longer needed.
+
+**Set due dates**: Users should be able to set due dates for tasks. The app should be able to remind users of upcoming deadlines.
+
+**Prioritize tasks**: Users should be able to prioritize tasks based on their importance. The app should display tasks in order of priority.
+
+**Track progress**: Users should be able to track their progress on tasks by marking them as completed or in progress.
+
+**Search for tasks**: Users should be able to search for tasks by name, description, or due date.
+
+**Non-Functional Requirements**
+
+**Usability**: The app should be easy to use and navigate for users of all skill levels.
+
+**Performance**: The app should be fast and responsive, even when dealing with large amounts of data.
+
+**Security**: The app should protect user data from unauthorized access.
+
+**Reliability**: The app should be reliable and should not crash or freeze.
+
+**Scalability**: The app should be able to scale to accommodate a large number of users and tasks.
  
 ## 10.IDE
 I use generally Viual Studio for project development. Some extensions are very usefull which are very useful during   
