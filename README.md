@@ -15,7 +15,7 @@ Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 
 **Product Name**: To-Do List App
 
-**Product Description**: A To-Do list app is a software application that allows users to organize and manage their tasks. Users can create, edit, and delete tasks, set due dates, prioritize tasks, and track their progress.
+**Product Description**: A To-Do list app is a software application that allows users to organize and manage their tasks. Users can create, edit, and delete tasks, set due dates, prioritize tasks,categorize tasks, add subtasks, filter, see completed tasks, send tasks by email and track their progress.
 
 **Target Audience**: Students, professionals, anyone who needs to keep track of tasks
 
@@ -27,11 +27,15 @@ Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 
 **Delete tasks**: Users should be able to delete tasks that are no longer needed.
 
-**Set due dates**: Users should be able to set due dates for tasks. The app should be able to remind users of upcoming deadlines.
+**Set due dates**: Users should be able to set due dates for tasks.
+
+**Categorize tasks**: Users should be able to categorize tasks based on their choice.
 
 **Prioritize tasks**: Users should be able to prioritize tasks based on their importance. The app should display tasks in order of priority.
 
-**Track progress**: Users should be able to track their progress on tasks by marking them as completed or in progress.
+**Track progress**: Users should be able to track their progress on tasks by marking them as completed.
+
+**See completed tasks**: Users should be able to see the tasks which have been completed and stored in archive.
 
 **Search for tasks**: Users should be able to search for tasks by name, description, or due date.
 
