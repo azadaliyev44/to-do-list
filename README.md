@@ -39,6 +39,8 @@ Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 
 **Search for tasks**: Users should be able to search for tasks by name, description, or due date.
 
+**Send email**: Users should be able to send tasks with email.
+
 **Non-Functional Requirements**
 
 **Usability**: The app should be easy to use and navigate for users of all skill levels.
