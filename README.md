@@ -52,6 +52,8 @@ Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 **Reliability**: The app should be reliable and should not crash or freeze.
 
 **Scalability**: The app should be able to scale to accommodate a large number of users and tasks.
+
+[Link for Trello](https://trello.com/invite/b/JMSsv8YF/ATTI3ecffc1dc436fb20e9cd2d437df229808D908298/to-do-list-app)
  
 ## 10.IDE
 I use generally Viual Studio for project development. Some extensions are very usefull which are very useful during   
