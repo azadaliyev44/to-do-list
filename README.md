@@ -151,7 +151,7 @@ And of course
 ## 0.Project description
 Azad Aliyev - To-Do List  
 
-**How to use commands**
+**How to use commands**  
 "-" is reserved character, it cannot be used in text, it is used for empty input    
 *Example :* `add Hello - 1 -`    
 *Output ->  Title: Hello, DueDate: None, Priority: 1, Category: None*  
