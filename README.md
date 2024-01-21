@@ -97,10 +97,10 @@ Of course there are some existing to-do list apps in the market, such as Todoist
 
 Our To-Do List app targets a wide range of users, such as students, professionals, teachers or even individuals who wants to improve their own productivity. Our app will provide service to a wide range of tasks, from personal tasks to work-related projects, from creative tasks to personal goals.
 As our app have unique features which others do not have:  
-**I Integrations**: Our application integrates other productivity tools, such as calendars apps, email apps, and note-taking apps, giving a centralized experience for managing tasks and duties.  
-**II Task Management**: This to-do app offers better task management features, which create possibilites for users to customize their path of work, set reminders, prioritize their tasks,caategorize their tasks, and keep the track of progress.  
-**III AI Assistant**: This to-do app comes with an AI that actively suggests tasks based on current tasks, makes reminders, and offers to the user personalized recommendations based on their behavior.  
-**IV Multiplatform Application**: This to-do app will be available on all platforms, including desktops, smartphones, and tablets.  
+**I Integrations**: Our application integrates other productivity tools, such as calendars apps, email apps, and note-taking apps, giving a centralized experience for managing tasks and duties.
+**II Task Management**: This to-do app offers better task management features, which create possibilites for users to customize their path of work, set reminders, prioritize their tasks,caategorize their tasks, and keep the track of progress.
+**III AI Assistant**: This to-do app comes with an AI that actively suggests tasks based on current tasks, makes reminders, and offers to the user personalized recommendations based on their behavior.
+**IV Multiplatform Application**: This to-do app will be available on all platforms, including desktops, smartphones, and tablets.
 
 7. Needs and Requirements of Users
 
@@ -149,7 +149,24 @@ And of course
 
 
 ## 0.Project description
-Azad Aliyev - To-Do List
+Azad Aliyev - To-Do List  
+
+**How to use commands**
+"-" is reserved character, it cannot be used in text, it is used for empty input  
+*Example :* `add Hello - 1 -`  
+*Output ->  Title: Hello, DueDate: None, Priority: 1, Category: None*
+
+add -> add task in format : add Title DueDate Priority Category (use "-" for empty input) 
+edit -> edit task in format : edit Index Title DueDate Priority Category (use "-" for empty input)
+delete -> delete task in format : delete Index
+filter -> filter tasks in format : filter Category
+complete -> complete task in format : complete Index
+list -> list tasks
+archive -> list archived tasks
+email -> send tasks to email in format : email your_email@example.com
+exit -> exit program
+
+---
 
 This To-Do List program will have functions to add, edit and delete tasks. Priority level can be applied for each task, 
 fulfilled tasks can be removed form main list and stored in archive. Tasks can contain subtasks and the main task 
