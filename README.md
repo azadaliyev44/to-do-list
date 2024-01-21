@@ -154,6 +154,81 @@ def command_add(task_list, tokens):
          else:
             print("Invalid arguments for 'add' command.")
 ```
+3.Encapsulated methods  
+Creating methods separatedly and calling it where needed enhances readability and maintainability.
+Example:
+```
+if command == 'add':
+            command_add(task_list, tokens)
+
+def command_add(task_list, tokens):
+    if len(tokens) >= 2: 
+        args = eval(str(tokens[1:]))
+        task = Task(*args)
+        task_list.add_task(task)
+        print("Task added successfully.")
+                
+    else:
+        print("Invalid arguments for 'add' command.")
+```
+4.Meaningful Function and Variable Names  
+Naming functions variables, classes and so on is important part of Clean Code Development as it makes code understandable.
+Random or irrelevant naming creates challange to find out for what variable or function is used.
+Examples:  
+```
+def filter_tasks(self, category):  # To print the tasks with specifig category
+        (
+        ...
+        )
+
+def add_task(self, task):  # Function to add new task to Task List
+    (
+    ...
+    ) 
+```  
+5.Comments  
+Comments makes it easier for others to understand or to remember for author what does a specific line or function, why certain code decisions made.  
+Example:
+```
+class EmailService:
+    def send_email(body, to_email):
+        # email server details
+        smtp_server = 'smtp.gmail.com'
+        smtp_port = 587
+        smtp_username = 'ourtodoapp@gmail.com'
+        smtp_password = 'wxcu eqbg hscg snnh'
+        # Sender and recipient email addresses
+        sender_email = 'ourtodoapp@gmail.com'
+        recipient_email = to_email
+
+        # We construct the email message
+        message = MIMEText(body)
+        message['Subject'] = "Task List"
+        message['From'] = sender_email
+        message['To'] = recipient_email
+
+def filter_tasks(self, category):  # To print the tasks with specifig category
+    filtered_tasks = []
+    for task in self.tasks:
+        if task.category == category:
+            filtered_tasks.append(
+                task
+            )  # Create list that contains filtered tasks based on category
+    filtered_task_list_str = "\n".join(
+        [
+            "[{}] {} (Due: {}, Priority: {}, Category: {})".format(
+                index, task.title, task.due_date, task.priority, task.category
+            )
+            for index, task in enumerate(filtered_tasks)
+        ]
+    )
+    print(
+        "<-------------Filtered Task List------------>\n{}".format(
+            filtered_task_list_str
+        )
+    )  # Print filtered elements in readable form not their memory adress
+
+```
 
 
 
