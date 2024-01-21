@@ -133,7 +133,8 @@ This kind of managing methods aligns with this principle which makes maintaining
 2.Error Handling  
 The arguments passed in methods are checked before the rest is performed if they are valid to avoid crashes.  
 Example: 
-```def edit_task(
+```
+def edit_task(
         self, index, new_title, new_due_date=None, new_priority=0, new_category=None
         ):  # Function to eedit the task in the list
         index = int(index) - 1
@@ -143,7 +144,7 @@ Example:
         else:
             print(f"Invalid index. Edit failed.")
 
-```def command_add(task_list, tokens):
+def command_add(task_list, tokens):
         if len(tokens) >= 2: #Here argument is checked if it is vaild
             args = eval(str(tokens[1:]))
             task = Task(*args)
@@ -152,6 +153,7 @@ Example:
         
          else:
             print("Invalid arguments for 'add' command.")
+```
 
 
 
