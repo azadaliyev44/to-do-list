@@ -132,27 +132,26 @@ Each methods in project has a clear and single responsiblity. SRP has been focus
 This kind of managing methods aligns with this principle which makes maintaining and reading codes more convinient.  
 2.Error Handling  
 The arguments passed in methods are checked before the rest is performed if they are valid to avoid crashes.  
-Example: `def edit_task(
-                self, index, new_title, new_due_date=None, new_priority=0, new_category=None
-                ):  # Function to eedit the task in the list
-                index = int(index) - 1
-                new_priority = int(new_priority)
-                if (0 <= int(index) < len(self.tasks)):  # We don't want to get crash because of wrong index
+Example: 
+```def edit_task(
+        self, index, new_title, new_due_date=None, new_priority=0, new_category=None
+        ):  # Function to eedit the task in the list
+        index = int(index) - 1
+        new_priority = int(new_priority)
+        if (0 <= int(index) < len(self.tasks)):  # We don't want to get crash because of wrong index
+            ...
+        else:
+            print(f"Invalid index. Edit failed.")```
 
-                    ...
-
-                else:
-                    print(f"Invalid index. Edit failed.")`  
-
-        `def command_add(task_list, tokens):
-                if len(tokens) >= 2: #Here argument is checked if it is vaild
-                    args = eval(str(tokens[1:]))
-                    task = Task(*args)
-                    task_list.add_task(task)
-                    print("Task added successfully.")
-                
-                 else:
-                    print("Invalid arguments for 'add' command.")`
+```def command_add(task_list, tokens):
+        if len(tokens) >= 2: #Here argument is checked if it is vaild
+            args = eval(str(tokens[1:]))
+            task = Task(*args)
+            task_list.add_task(task)
+            print("Task added successfully.")
+        
+         else:
+            print("Invalid arguments for 'add' command.")```
 
 
 
