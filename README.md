@@ -141,7 +141,7 @@ Example:
         if (0 <= int(index) < len(self.tasks)):  # We don't want to get crash because of wrong index
             ...
         else:
-            print(f"Invalid index. Edit failed.")```
+            print(f"Invalid index. Edit failed.")
 
 ```def command_add(task_list, tokens):
         if len(tokens) >= 2: #Here argument is checked if it is vaild
@@ -151,7 +151,7 @@ Example:
             print("Task added successfully.")
         
          else:
-            print("Invalid arguments for 'add' command.")```
+            print("Invalid arguments for 'add' command.")
 
 
 
