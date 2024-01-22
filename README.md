@@ -267,14 +267,14 @@ Azad Aliyev - To-Do List
 *Example :* `add Hello - 1 -`    
 *Output ->  Title: Hello, DueDate: None, Priority: 1, Category: None*  
 
-add -> add task in format : add Title DueDate Priority Category (use "-" for empty input)   
-edit -> edit task in format : edit Index Title DueDate Priority Category (use "-" for empty input)  
-delete -> delete task in format : delete Index  
-filter -> filter tasks in format : filter Category  
-complete -> complete task in format : complete Index  
+add -> add task in format : add 'Title' 'DueDate' 'Priority' 'Category' (use "-" for empty input)   
+edit -> edit task in format : edit 'Index' 'Title' 'DueDate' 'Priority' 'Category' (use "-" for empty input)  
+delete -> delete task in format : delete 'Index'  
+filter -> filter tasks in format : filter 'Category'  
+complete -> complete task in format : complete 'Index'  
 list -> list tasks  
 archive -> list archived tasks  
-email -> send tasks to email in format : email your_email@example.com  
+email -> send tasks to email in format : email 'your_email@example.com'  
 exit -> exit program  
 
 ---
