@@ -128,7 +128,7 @@ Links for DDD
 
 **A.**  
 1.Single Responsibility Principle:  
-Each methods in project has a clear and single responsiblity. SRP has been focused during development of this project. Such as add_task, edit_task, delete_task, filter_tasks and so on.
+Each methods in project has a clear and single responsiblity. SRP has been focused during development of this project. Such as add_task, edit_task, delete_task, and so on.
 This kind of managing methods aligns with this principle which makes maintaining and reading codes more convinient.  
 2.Error Handling  
 The arguments passed in methods are checked before the rest is performed if they are valid to avoid crashes.  
