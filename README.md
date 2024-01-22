@@ -233,7 +233,7 @@ def filter_tasks(self, category):  # To print the tasks with specifig category
 Using spaces and new lines are important for better view and readability of the code. FOrtunately, there are some tools to do it 
 automatically. For this project "black" is used to improve formatting.    
 
-[Link for CCD Cheat Sheet PDF](https://github.com/azadaliyev44/to-do-list/blob/main/media/CCD%20CheatSheet.pdf)  
+**B.** [Link for CCD Cheat Sheet PDF](https://github.com/azadaliyev44/to-do-list/blob/main/media/CCD%20CheatSheet.pdf)  
 
 
 
