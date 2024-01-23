@@ -1,6 +1,17 @@
-from tasks.task import Task
-from tasks.task_list import TaskList
-from email1.email_service import EmailService
+try:
+    from src.tasks.task import Task
+except ModuleNotFoundError:
+    from tasks.task import Task
+
+try:
+    from src.tasks.task_list import TaskList
+except ModuleNotFoundError:
+    from tasks.task_list import TaskList
+
+try:
+    from src.email1.email_service import EmailService
+except ModuleNotFoundError:
+    from email1.email_service import EmailService
 
 
 
