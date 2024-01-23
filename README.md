@@ -68,6 +68,8 @@ Description: The app should be reliable and should not crash or freeze.
 **Scalability**: ID: NFR-5  
 Description: The app should be able to scale to accommodate a large number of users and tasks. It must be able to handle concurrent access from multiple users without performance degradation.  
 
+**Deadline for tasks is 23.01.2024**  
+
 [Link for Trello](https://trello.com/invite/b/JMSsv8YF/ATTI3ecffc1dc436fb20e9cd2d437df229808D908298/to-do-list-app)  
 [Link for Monday](https://view.monday.com/1368315352-e9b36ecee3e8ec195e4deb2aa7667410?r=euc1)
  
