@@ -3,7 +3,7 @@ class TaskList:
         self.tasks = []
         self.archive = []
 
-    def __str__(self):  # We need to be able to print list as string
+    def __str__(self):  # We need to be able to print list as string not their address
         task_list_str = "\n".join(
             [
                 "[{}] {} (Due: {}, Priority: {}, Category: {})".format(
@@ -20,7 +20,6 @@ class TaskList:
             self.tasks, key=lambda x: x.priority
         )  # Reorder list based on priority level after each input
 
-
     def edit_task(
         self, index, new_title, new_due_date=None, new_priority=0, new_category=None
     ):  # Function to eedit the task in the list
@@ -33,12 +32,12 @@ class TaskList:
             task = self.tasks[int(index)]
             task.title = new_title if new_title != "-" else task.title
             task.due_date = new_due_date if new_due_date != "-" else task.due_date
-            task.priority = new_priority if new_priority != "-"  else task.priority
+            task.priority = new_priority if new_priority != "-" else task.priority
             task.category = new_category if new_category != "-" else task.category
             self.tasks = sorted(
                 self.tasks, key=lambda x: x.priority
             )  # Reorder list based on priority level after each modification
-            print(f"Task at index {index} edited: {new_title}")
+            print(f"Task at index {index+1} edited: {new_title}")
         else:
             print(f"Invalid index. Edit failed.")
 
@@ -65,9 +64,12 @@ class TaskList:
                 for index, task in enumerate(filtered_tasks)
             ]
         )
-        print( "<-------------Filtered Task List------------>\n{}".format(
-            filtered_task_list_str
-        ) ) # Print filtered elements in readable form not their memory adress
+        print(
+            "<-------------Filtered Task List------------>\n{}".format(
+                filtered_task_list_str
+            )
+        )  # Print filtered elements in readable form not their memory adress
+        return filtered_tasks
 
     def task_completed(self, index):
         index = int(index) - 1
@@ -87,15 +89,11 @@ class TaskList:
                 for index, task in enumerate(self.archive)
             ]
         )
-        print( "<-------------Archive------------>\n{}".format(
-            archive_str
-        ) ) # Print filtered elements in readable form not their memory adress
-    
-
+        print(
+            "<-------------Archive------------>\n{}".format(archive_str)
+        )  # Print filtered elements in readable form not their memory adress
 
     def print_tasks(self):
-        
-
         if not self.tasks:
             print("Task list is empty.")
         else:
@@ -107,6 +105,6 @@ class TaskList:
                     for index, task in enumerate(self.tasks, start=1)
                 ]
             )
-            return "<-----------------Task List----------------->\n{}".format(task_list_str)
-
-       
+            return "<-----------------Task List----------------->\n{}".format(
+                task_list_str
+            )
