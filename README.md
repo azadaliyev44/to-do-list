@@ -235,7 +235,8 @@ automatically. For this project "black" is used to improve formatting.
 
 **B.** [Link for CCD Cheat Sheet PDF](https://github.com/azadaliyev44/to-do-list/blob/main/media/CCD%20CheatSheet.pdf)  
 
-
+## 9.Unit Tests  
+[Link to unit tests file with 7 tests](https://github.com/azadaliyev44/to-do-list/blob/main/src/unittest/python/test_main_tests.py)
 
 ## 10.IDE
 I use generally Viual Studio for project development. Some extensions are very usefull which are very useful during   
