@@ -140,6 +140,10 @@ Links for DDD
 [Core Domain Chart](https://github.com/azadaliyev44/to-do-list/blob/main/media/Core%20Domain%20Chart.png)  
 [Domain Mapping and Relations](https://github.com/azadaliyev44/to-do-list/blob/main/media/Domain%20Mapping.png)  
 
+## 6.Metrics
+SonarCloud is used to analyze metrics of project  
+[Link for metrics by Sonarqube](https://sonarcloud.io/organizations/azadaliyev44/projects?view=leak)  
+
 
 ## 7.Clean Code Development
 
