@@ -285,10 +285,10 @@ And of course
 -Ctrl+V to copy and paste
 
 ## 11.Functional programming
-[Only final data structures](https://github.com/azadaliyev44/to-do-list/blob/76272d237c4a7c291db5bb8663fdb7eef8681280/src/tasks/task_list.py#L3)
-[Side-effect-free functions](https://github.com/azadaliyev44/to-do-list/blob/76272d237c4a7c291db5bb8663fdb7eef8681280/src/tasks/task_list.py#L17)
-[Functions as parameters and return values](https://github.com/azadaliyev44/to-do-list/blob/3a1c6afb61ab578778ff4aaaf04a727ce7958732/hello_world.py#L15)
-[Use closures / anonymous functions](https://github.com/azadaliyev44/to-do-list/blob/76272d237c4a7c291db5bb8663fdb7eef8681280/src/tasks/task_list.py#L20)
+[Only final data structures](https://github.com/azadaliyev44/to-do-list/blob/76272d237c4a7c291db5bb8663fdb7eef8681280/src/tasks/task_list.py#L3)  
+[Side-effect-free functions](https://github.com/azadaliyev44/to-do-list/blob/76272d237c4a7c291db5bb8663fdb7eef8681280/src/tasks/task_list.py#L17)  
+[Functions as parameters and return values](https://github.com/azadaliyev44/to-do-list/blob/3a1c6afb61ab578778ff4aaaf04a727ce7958732/hello_world.py#L15)  
+[Use closures / anonymous functions](https://github.com/azadaliyev44/to-do-list/blob/76272d237c4a7c291db5bb8663fdb7eef8681280/src/tasks/task_list.py#L20)  
 
 
 
