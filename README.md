@@ -235,6 +235,10 @@ automatically. For this project "black" is used to improve formatting.
 
 **B.** [Link for CCD Cheat Sheet PDF](https://github.com/azadaliyev44/to-do-list/blob/main/media/CCD%20CheatSheet.pdf)  
 
+## 8.Build
+[Link to files related to Build with PyBuilder](https://github.com/azadaliyev44/to-do-list/tree/main/target)
+
+
 ## 9.Unit Tests  
 [Link to unit tests file with 7 tests](https://github.com/azadaliyev44/to-do-list/blob/main/src/unittest/python/test_main_tests.py)  
 `python -m unittest .\src\unittest\python\test_main_tests.py` to run tests manually
