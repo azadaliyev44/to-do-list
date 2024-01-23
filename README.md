@@ -21,37 +21,52 @@ Links to UML Diagrams(Activity Diagram, Class Diagram and Use Case Diagram)
 
 **Functional Requirements**
 
-**Create tasks**: Users should be able to create new tasks, due dates,categories, and priorities.
+**Create tasks**: ID: FR-1  
+Description: Users must be able to create new tasks with associated due dates, categories, and priorities. Additionally, users should be able to include subtasks.  
 
-**Edit tasks**: Users should be able to edit existing tasks, including their categoriesw, due dates, and priorities.
+**Edit tasks**: ID: FR-2  
+Description: Users must be able to edit existing tasks, including their categories, due dates, and priorities. Users should be able also to edit subtasks.  
 
-**Delete tasks**: Users should be able to delete tasks.
+**Delete tasks**: ID: FR-3  
+Description: Users must be able to delete tasks. Users can choose to delete tasks with or without confirmation.  
 
-**Set due dates**: Users should be able to set due dates for tasks.
+**Set due dates**: ID: FR-4  
+Description: Users must be able to set due dates for tasks. Additionally, users can choose to receive notifications for upcoming due dates.   
 
-**Categorize tasks**: Users should be able to categorize tasks based on their choice.
+**Categorize tasks**: ID: FR-5   
+Description: Users must be able to categorize tasks based on their choice.   
 
-**Prioritize tasks**: Users should be able to prioritize tasks based on their importance. The app should display tasks in order of priority.
+**Prioritize tasks**: ID: FR-6  
+Description: Users must be able to prioritize tasks based on their importance. The app will display tasks in order of priority.  
 
-**Track progress**: Users should be able to track their progress on tasks by marking them as completed.
+**Track progress**: ID: FR-7  
+Description: Users must be able to track their progress on tasks by marking them as completed. Users can view a progress bar for each task.  
 
-**See completed tasks**: Users should be able to see the tasks which have been completed and stored in archive.
+**See completed tasks**: ID: FR-8  
+Description: Users must be able to view tasks that have been completed and tasks will be stored in the archive.   
 
-**Search for tasks**: Users should be able to search for tasks by name or description.
+**Search for tasks**: ID: FR-9  
+Description: Users must be able to search for tasks by name or description. Users can use filter tasks based on Category.  
 
-**Send email**: Users should be able to send tasks with email.
+**Send email**: ID: FR-10  
+Description: Users must be able to send tasks via email.   
 
 **Non-Functional Requirements**
 
-**Usability**: The app should be easy to use and navigate for users.
+**Usability**: ID: NFR-1  
+Description: The app should be easy to use and navigate for users. Users will have access to a user-friendly interface with clear instructions.  
 
-**Performance**: The app should be fast and responsive.
+**Performance**: ID: NFR-2  
+Description: The app should be fast and responsive. It will load tasks quickly, even with a large number of tasks in the database.  
 
-**Security**: The app should protect user data from unauthorized access.
+**Security**: ID: NFR-3  
+Description: The app must protect user data from unauthorized access.    
 
-**Reliability**: The app should be reliable and should not crash or freeze.
+**Reliability**: ID: NFR-4  
+Description: The app should be reliable and should not crash or freeze.  
 
-**Scalability**: The app should be able to scale to accommodate a large number of users and tasks.
+**Scalability**: ID: NFR-5  
+Description: The app should be able to scale to accommodate a large number of users and tasks. It must be able to handle concurrent access from multiple users without performance degradation.  
 
 [Link for Trello](https://trello.com/invite/b/JMSsv8YF/ATTI3ecffc1dc436fb20e9cd2d437df229808D908298/to-do-list-app)  
 [Link for Monday](https://view.monday.com/1368315352-e9b36ecee3e8ec195e4deb2aa7667410?r=euc1)
