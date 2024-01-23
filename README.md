@@ -277,7 +277,9 @@ Azad Aliyev - To-Do List
 **How to use commands**  
 "-" is reserved character, it cannot be used in text, it is used for empty input    
 *Example :* `add 'Hello' '-' '1' '-'`    
-*Output ->  Title: Hello, DueDate: None, Priority: 1, Category: None*  
+*Output ->  Title: Hello, DueDate: None, Priority: 1, Category: None*    
+*Example :* `add 'Hello'`    
+*Output ->  Title: Hello, DueDate: None, Priority: 0, Category: None*  
 
 add -> add task in format : add 'Title' 'DueDate' 'Priority' 'Category' (use "-" for empty input)   
 edit -> edit task in format : edit 'Index' 'Title' 'DueDate' 'Priority' 'Category' (use "-" for empty input)  
