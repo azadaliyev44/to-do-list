@@ -257,6 +257,7 @@ automatically. For this project "black" is used to improve formatting.
 **B.** [Link for CCD Cheat Sheet PDF](https://github.com/azadaliyev44/to-do-list/blob/main/media/CCD%20CheatSheet.pdf)  
 
 ## 8.Build
+[Link to GitHub Actions](https://github.com/azadaliyev44/to-do-list/actions)
 [Link to files related to Build with PyBuilder](https://github.com/azadaliyev44/to-do-list/tree/main/target)
 
 
